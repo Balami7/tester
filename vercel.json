@@ -4,10 +4,6 @@
   ],
   "rewrites": [
     {
-      "source": "/FMYDHUB/:file(.*\\.(png|jpg|jpeg|gif|svg|ico|webp))",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/:file"
-    },
-    {
       "source": "/FMYDHUB/_next/static/:file*",
       "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/static/:file*"
     },
