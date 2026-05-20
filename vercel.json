@@ -1,4 +1,7 @@
 {
+  "redirects": [
+    { "source": "/", "destination": "/FMYDHUB", "statusCode": 308 }
+  ],
   "rewrites": [
     {
       "source": "/FMYDHUB/:file(.*\\.(png|jpg|jpeg|gif|svg|ico|webp))",
@@ -8,9 +11,25 @@
       "source": "/FMYDHUB/_next/static/:file*",
       "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/static/:file*"
     },
-    { "source": "/_next/:path*", "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/:path*" },
-    { "source": "/images/:path*", "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/images/:path*" },
-    { "source": "/FMYDHUB", "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB" },
-    { "source": "/FMYDHUB/:path*", "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/:path*" }
+    {
+      "source": "/_next/static/:path*",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/static/:path*"
+    },
+    {
+      "source": "/_next/:path*",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/:path*"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/images/:path*"
+    },
+    {
+      "source": "/FMYDHUB",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB"
+    },
+    {
+      "source": "/FMYDHUB/:path*",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/:path*"
+    }
   ]
 }
