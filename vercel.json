@@ -8,6 +8,14 @@
   ],
   "rewrites": [
     {
+      "source": "/6.jpeg",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/6.jpeg"
+    },
+    {
+      "source": "/fmyd.png",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/fmyd.png"
+    },
+    {
       "source": "/FMYDHUB/:path*",
       "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/:path*"
     }
