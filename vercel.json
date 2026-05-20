@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    // Static assets (images, fonts, etc.) – serve directly from the destination
     {
       "source": "/FMYDHUB/:file(.*\\.(png|jpg|jpeg|gif|svg|ico|webp))",
       "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/:file"
@@ -9,7 +8,6 @@
       "source": "/FMYDHUB/_next/static/:file*",
       "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/static/:file*"
     },
-    // Your existing rules...
     { "source": "/_next/:path*", "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/:path*" },
     { "source": "/images/:path*", "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/images/:path*" },
     { "source": "/FMYDHUB", "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB" },
