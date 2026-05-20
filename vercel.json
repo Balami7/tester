@@ -4,6 +4,14 @@
   ],
   "rewrites": [
     {
+      "source": "/fmyd.png",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/fmyd.png"
+    },
+    {
+      "source": "/6.jpeg",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/6.jpeg"
+    },
+    {
       "source": "/FMYDHUB/_next/static/:file*",
       "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/static/:file*"
     },
@@ -26,6 +34,10 @@
     {
       "source": "/FMYDHUB/:path*",
       "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/$1"
     }
   ]
 }
