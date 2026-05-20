@@ -1,1 +1,27 @@
-kk
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/FMYDHUB",
+      "statusCode": 308
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/FMYDHUB/_next/:path*",
+      "destination": "https://fmydfeedb-pnps.vercel.app/_next/:path*"
+    },
+    {
+      "source": "/FMYDHUB/static/:path*",
+      "destination": "https://fmydfeedb-pnps.vercel.app/static/:path*"
+    },
+    {
+      "source": "/FMYDHUB",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB"
+    },
+    {
+      "source": "/FMYDHUB/:path*",
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/:path*"
+    }
+  ]
+}
