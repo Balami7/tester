@@ -1,43 +1,35 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/FMYDHUB", "statusCode": 308 }
+    { "source": "/", "destination": "/SNITIS", "statusCode": 308 }
   ],
   "rewrites": [
     {
-      "source": "/fmyd.png",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/fmyd.png"
-    },
-    {
-      "source": "/6.jpeg",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/6.jpeg"
-    },
-    {
-      "source": "/FMYDHUB/_next/static/:file*",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/static/:file*"
+      "source": "/SNITIS/_next/static/:file*",
+      "destination": "https://snitis.vercel.app/SNITIS/_next/static/:file*"
     },
     {
       "source": "/_next/static/:path*",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/static/:path*"
+      "destination": "https://snitis.vercel.app/SNITIS/_next/static/:path*"
     },
     {
       "source": "/_next/:path*",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/:path*"
+      "destination": "https://snitis.vercel.app/SNITIS/_next/:path*"
     },
     {
       "source": "/images/:path*",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/images/:path*"
+      "destination": "https://snitis.vercel.app/SNITIS/images/:path*"
     },
     {
-      "source": "/FMYDHUB",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB"
+      "source": "/SNITIS",
+      "destination": "https://snitis.vercel.app/SNITIS"
     },
     {
-      "source": "/FMYDHUB/:path*",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/:path*"
+      "source": "/SNITIS/:path*",
+      "destination": "https://snitis.vercel.app/SNITIS/:path*"
     },
     {
       "source": "/(.*)",
-      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/$1"
+      "destination": "https://snitis.vercel.app/SNITIS/$1"
     }
   ]
 }
