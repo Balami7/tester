@@ -9,11 +9,11 @@
   "rewrites": [
     {
       "source": "/FMYDHUB/_next/:path*",
-      "destination": "https://fmydfeedb-pnps.vercel.app/_next/:path*"
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/_next/:path*"
     },
     {
       "source": "/FMYDHUB/static/:path*",
-      "destination": "https://fmydfeedb-pnps.vercel.app/static/:path*"
+      "destination": "https://fmydfeedb-pnps.vercel.app/FMYDHUB/static/:path*"
     },
     {
       "source": "/FMYDHUB",
